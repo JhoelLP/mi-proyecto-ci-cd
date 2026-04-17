@@ -20,5 +20,5 @@ jobs:
         working-directory: ./src
 
       - name: Ejecutar pruebas
-        run: npm test --silent
+        run: npx jest --silent
         working-directory: ./src
